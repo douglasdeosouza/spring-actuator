@@ -6,13 +6,12 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.2.1.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
-	<groupId>io.schultz.dustin</groupId>
-	<artifactId>todo-app</artifactId>
+	<groupId>com.douglasdeosouza</groupId>
+	<artifactId>todo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>todo-app</name>
-	<description>Demo for Pluralsight Course - Spring Framework: Spring Boot Actuator</description>
+	<name>todo</name>
 
 	<properties>
 		<java.version>11</java.version>
@@ -32,7 +31,6 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
